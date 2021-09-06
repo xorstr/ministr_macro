@@ -1,0 +1,13 @@
+[package]
+name = "ministr_macro"
+version = "0.1.0"
+authors = ["N/A <N/A>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.*"
+proc-macro2 = "1.*"
+ministr = { path = "../ministr" }
