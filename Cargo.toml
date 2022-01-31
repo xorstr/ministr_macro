@@ -10,4 +10,4 @@ proc-macro = true
 [dependencies]
 quote = "1.*"
 proc-macro2 = "1.*"
-ministr = { path = "../ministr" }
+ministr = { git = "https://github.com/xorstr/ministr.git" }
